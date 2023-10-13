@@ -21,6 +21,7 @@ public class UsuariosController : BaseController
     [HttpPost]
     [SwaggerOperation(Summary = "Cadastro de um Usuário", Tags = new[] { "Usuário - Usuarios" })]
     [ProducesResponseType(typeof(UsuarioDto), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Adicionar([FromForm] AdicionarUsuarioDto dto)
     {

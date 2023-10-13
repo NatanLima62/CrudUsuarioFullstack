@@ -1,77 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aa6be27b-3be4-4db4-92bb-acf967ad3f66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrudUsuario/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrudUsuario/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Configuration/AuthenticationConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Configuration/SwaggerConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Controllers/BaseController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Controllers/UsuariosAuthController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Controllers/UsuariosController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/CrudUsuario.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Responses/BadRequestResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/Responses/Response.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/appsettings.Exemplo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Api/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application.Test/CrudUsuario.Application.Test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application.Test/Fixtures/ServicesFixture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application.Test/ServiceTest/BaseServiceTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application.Test/ServiceTest/UsuarioServiceTeste.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application.Test/Usings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Configurations/AutoMapperProfile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Contracts/IFileService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Contracts/IUsuarioService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/CrudUsuario.Application.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Auth/TokenDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Auth/UsuarioLoginDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Usuario/AdicionarUsuarioDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Usuario/AtualizarUsuarioDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Usuario/IAuthService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DTOs/Usuario/UsuarioDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/DependencyInjection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Notifications/INotificator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Notifications/Notificator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Services/AuthService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Services/BaseServices.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Services/IFileService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Application/Services/UsuarioService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/IAggregateRoot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/IEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/ITracking.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/Repositories/IRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Contracts/Repositories/IUsuarioRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/CrudUsuario.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Entities/Entity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Entities/Usuario.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Domain/Validators/UsuarioValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Context/ApplicationDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Context/BaseApplicationDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/CrudUsuario.Infra.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/DependencyInjection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Extensions/ModelBuilderExtension.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Mappings/UsuarioMapping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Migrations/20230714042400_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Migrations/20230714042400_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Migrations/20230720155954_AddPropSenha.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Migrations/20230720155954_AddPropSenha.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Repositories/Repository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.Infra/Repositories/UsuarioRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuario.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/CrudUsuarios.Core.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Enums/EPathAccess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Enums/EUploadPath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Extensions/EnumExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Extensions/StringExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Settings/AppSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Settings/JwtSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudUsuarios.Core/Settings/UploadSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrudUsuarioFullStack.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrudUsuarioFullStack.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +15,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2WgZEZZXKzGM8zN4NBSfRqBfTSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,10 +29,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/natanlima/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/home/natanlima/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/home/natanlima/.local/share/Symbols/src"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,13 +56,35 @@
       <option name="presentableId" value="Default" />
       <updated>1697156073982</updated>
       <workItem from="1697156075589" duration="29000" />
+      <workItem from="1697156116981" duration="444000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1697156255985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697156255985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removendo pasta">
+      <option name="closed" value="true" />
+      <created>1697156391119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697156391119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="removendo pasta" />
+    <option name="LAST_COMMIT_MESSAGE" value="removendo pasta" />
   </component>
 </project>

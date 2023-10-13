@@ -8,5 +8,5 @@ public class AdicionarUsuarioDto
     public string Cpf { get; set; } = null!;
     public string Email { get; set; } = null!;
     public string Senha { get; set; } = null!;
-    public IFormFile? Foto { get; set; } = null;
+    public IFormFile? Foto { get; set; }
 }
