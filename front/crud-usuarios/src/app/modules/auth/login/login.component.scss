@@ -1,0 +1,106 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 380px;
+    background: rgba(0, 68, 255, 0.993);
+    padding: 60px;
+    border-radius: 10px;
+
+    >.title{
+        font-size: 3rem;
+        color: white;
+
+        padding-bottom: 10%;
+    }
+
+    >form{
+
+        >label{
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        >.lg-input{
+            align-items: center;
+            height: 40px;
+            width: 330px;
+            border-radius: 20px;
+            background: white;
+
+            margin: 5px 0px 5px 0px;
+
+            >input{
+                width: 70%;
+                height: 100%;
+                border: none;
+                background: none;
+                outline: none;
+                padding-left: 15px;
+            }
+
+            >i{
+                font-size: 1.2rem;
+                padding-left: 15px;
+                transform: translateY(10%);
+                background: rgba(0, 68, 255, 0.993);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            >.fa-eye-slash{
+                cursor: pointer;
+            }
+
+            >.fa-eye{
+                cursor: pointer;
+            }
+        }
+
+        >.btn{
+            display: flex;
+            justify-content: center;
+            height: 50px;
+            width: 330px;
+            border-radius: 20px;
+            background: white;
+
+            margin-top: 30px;
+
+            >button{
+                color: rgba(0, 0, 0, 0.603);
+                width: 100%;
+                border-radius: 20px;
+                border: none;
+                background: none;
+                outline: none;
+                cursor: pointer;
+                font-size: 1.5rem;
+            }
+
+            >button:hover{
+                background: lightgrey;
+            }
+        }
+
+        >.cadastro{
+            text-align: center;
+            margin-top: 5px;
+            color: white;
+
+            >a{
+                color: white;
+                text-decoration: none;
+                font-weight: bolder;
+                font-size: 1.2rem;
+            }
+
+            >a:hover{
+                text-decoration: underline;
+            }
+        }
+
+    }
+}

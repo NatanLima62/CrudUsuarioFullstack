@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <h1 class="title">Bem-vindo</h1>
+
+<form type="submit">
+    <label for="email">Email</label>
+    <div class="lg-input">
+        <i class="fa-regular fa-envelope"></i>
+        <input [(ngModel)]="login.email" required type="text" name="email" id="email" placeholder="email@email.com">
+    </div>
+    <label for="password">Senha</label>
+    <div class="lg-input">
+        <i class="fa-solid fa-lock"></i>
+        <input [(ngModel)]="login.senha" required type={{tipoInputSenha}} name="password" id="password" placeholder="Sua senha">
+        <i (click)="mostrarSenha()" class="fa-regular {{tipoOlho}}"></i>
+    </div>
+    <div class="btn">
+        <button (click)="onSubmit()" type="submit">
+            Login
+        </button>
+    </div>
+    <div class="cadastro">
+        Não possui uma conta? <a href="#">Criar conta</a>
+    </div>
+</form>
+</div>
